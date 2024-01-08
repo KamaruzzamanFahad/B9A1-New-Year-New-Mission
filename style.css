@@ -22,9 +22,10 @@ header{
     background-repeat: no-repeat;
     background-size:1050px;
     background-position: center top;
+    margin-top: 30px;
 }
 .headercontiner{
-    height: 540px;
+    height: 500px;
     text-align: center;
     border-radius: 16px;
     width: 1050px;
@@ -34,8 +35,8 @@ header{
 .headercontiner > h5{
     color: #fff;
     font-size: 30px;
-    margin-top: 155px;
-    margin-bottom: 0;
+    margin-top: 135px;
+    margin-bottom: 20px;
     padding-bottom: 0;
     font-weight: 300;
     
@@ -60,7 +61,8 @@ header{
     font-family: Inter;
     font-size: 78px;
     font-weight: 700;
-    margin-bottom: 40px;
+    margin-bottom: 40px;+
+
 }
 
 .newy >h4{
@@ -68,12 +70,15 @@ header{
     font-family: Inter;
     font-size: 20px;
     font-weight: 500;
+    margin-bottom: 5px;
 }
 .newy >h2{
     color: #070211;
     font-family: Inter;
     font-size: 40px;
     font-weight: 700;
+    padding-top: 0px;
+    margin-top: 0px;
 }
 .newy >img{
     width: 690px;
@@ -106,14 +111,15 @@ header{
     color: #FFF;
     letter-spacing: 7px;
     font-size: 49px;
-    margin-top: 100px;
+    margin-top: 110px;
     margin-left: 100px;
+    margin-bottom: 0px;
 
 }
 .wlc-text >p{
     color: rgba(255, 255, 255, 0.80);
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 300;
     line-height: 30px;
     margin-left: 100px;
 
@@ -266,8 +272,8 @@ header{
     background-size: 350px , 1050px;
 }
 .imgone{
-    width: 500px;
-    margin-top: 55px;
+    width: 580px;
+    margin-top: 8px;
     filter: drop-shadow(0px  40px 40px rgba(0, 0, 0, 0.733));
 
 }
@@ -318,13 +324,13 @@ header{
 /* main section 6*/
 
 .mewsletter{
-    width: 1050px;
+    width: 880px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
-    height: 300px;
+    height: 320px;
     margin-top: 120px;
     text-align: center;
-    padding: 90px;
+    padding: 90px 90px;
     margin-bottom: 100px;
 }
 
@@ -335,25 +341,25 @@ header{
     color: #070211;
     font-size: 48px;
     font-weight: 900;
-    margin: 5px 0px;
+    margin: 8px 0px;
 }
 .roundbox{
     background-color: #ffffff;
     border-radius: 80px;
     width: 550px;
-    margin: 0px auto;
-    height: 50px;
+    margin: 20px auto;
+    height: 55px;
     text-align:left;
 }
 .roundbox > input{
     width: 400px;
-    height: 50px;
+    height: 55px;
     border: none;
     padding-left: 20px;
     background-color: transparent;
 }
 .roundbox > button{
-    height: 50px;
+    height: 55px;
     width: 150px;
     background-color: #F00;
     border: none;
@@ -363,7 +369,7 @@ header{
     font-size: 17px;
 }
 
-/* footer 6*/
+/* footer */
 
 footer{
     background: #070211;
@@ -373,7 +379,7 @@ footer{
 footer > div > h4 , footer > div > div >div > h4 {
     font-family: Inter;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
     color: #FFF;
     margin: 0px;
 }
