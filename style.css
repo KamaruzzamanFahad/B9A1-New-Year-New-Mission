@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+/* universal section */
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    color: rgba(7, 2, 17, 0.60);
+    font-weight: 500;
+}
+h1{
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+}
+
+
+/* header section */
+header{
+    display: flex;
+    justify-content: center;
+    background-image: url('images/BannerImage.png');
+    background-repeat: no-repeat;
+    background-size:1050px;
+    background-position: center top;
+}
+.headercontiner{
+    height: 540px;
+    text-align: center;
+    border-radius: 16px;
+    width: 1050px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+.headercontiner > h5{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 155px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: 300;
+    
+}
+
+.headercontiner > h1{
+    color: #fff;
+    font-size: 55px;
+    line-height: 70px;
+    letter-spacing: 2px;
+    margin-top: 7px;
+}
+
+/* main section 1*/
+
+.newy{
+    text-align: center;
+}
+
+.newy >h1{
+    color: #F00;
+    font-family: Inter;
+    font-size: 78px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.newy >h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+.newy >h2{
+    color: #070211;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+}
+.newy >img{
+    width: 690px;
+    margin-bottom: 90px;
+
+}
+
+/* main section 1*/
+.bnrimg{
+    background-image: url('images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size:1050px;
+    background-position: center top;
+    justify-content: center;
+    display: flex;
+}
+
+.welc-party-bnr{
+    height: 501px;
+    width: 1050px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.welc-party-bnr{
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+.wlc-text >h1{
+    color: #FFF;
+    letter-spacing: 7px;
+    font-size: 49px;
+    margin-top: 100px;
+    margin-left: 100px;
+
+}
+.wlc-text >p{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 100px;
+
+}
+
+.wlc-text >button{
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 120px;
+
+}
+.wlc-img > img{
+    height: 400px;
+    margin-top: 50px;
+    margin-right: 105px;
+}
+
+/* main section 2*/
+
+
+.middle{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+.eventjoin{
+    width: 1050px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    height: 350px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 80px;
+}
+
+.eventjoin > h4{
+    color: rgb(0, 0, 0);
+    font-size: 27px;
+    font-weight: 600;
+    font-family: Inter;
+    line-height: 10px;
+}
+#joinnow{
+    border: none;
+    border-radius: 8px;
+    background: #F00;
+    font-size: 18px;
+    color: #FFF;
+    padding: 14px 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+/* main section 3*/
+
+.offer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1050px;
+}
+
+.offertext > h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.offertext > h1{
+    font-size: 40px;
+    font-weight: 900;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.offerimg{
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    border: 13px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offerimg > img{
+    height: 280px;
+}
+.offertextend > h1{
+    color: #F00;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Inter;
+    margin-bottom: 0px;
+}
+
+.offertextend > img{
+    width: 100px;
+    margin-top: 20px;
+}
+
+/* main section 4*/
+
+.saleofftxt{
+    text-align: center;
+    margin-top: 80px;
+}
+.saleofftxt >h5{
+    color: #070211;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Inter;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+}
+.saleofftxt >h1{
+    color: rgb(0, 0, 0);
+    font-family: Merriweather;
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.selloffcontiner{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.saleoffimg{
+    width: 1050px;
+    justify-content: space-around;
+    background-image: url('images/girl.png'), url('images/buttom.png');
+    background-repeat: no-repeat;
+    background-position:top right , bottom ;
+    height: 535px;
+    background-size: 350px , 1050px;
+}
+.imgone{
+    width: 500px;
+    margin-top: 55px;
+    filter: drop-shadow(0px  40px 40px rgba(0, 0, 0, 0.733));
+
+}
+.imgtwo{
+    margin-bottom: 220px;
+    margin-right: 160px;
+    width: 230px;
+}
+
+/* main section 5*/
+
+.portfoliocontinar{
+    width: 1050px;
+}
+
+.protfoliotext > h5{
+    color: #F00;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Inter;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 100px;
+}
+.protfoliotext > h1{
+    color: #070211;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 0px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.portfolioimg{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+
+.portfolioimg >img{
+    width: 336px;
+    margin-top: 20px;
+}
+
+/* main section 6*/
+
+.mewsletter{
+    width: 1050px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    height: 300px;
+    margin-top: 120px;
+    text-align: center;
+    padding: 90px;
+    margin-bottom: 100px;
+}
+
+.mewsletter > img{
+    width: 130px;
+}
+.mewsletter > h1{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 5px 0px;
+}
+.roundbox{
+    background-color: #ffffff;
+    border-radius: 80px;
+    width: 550px;
+    margin: 0px auto;
+    height: 50px;
+    text-align:left;
+}
+.roundbox > input{
+    width: 400px;
+    height: 50px;
+    border: none;
+    padding-left: 20px;
+    background-color: transparent;
+}
+.roundbox > button{
+    height: 50px;
+    width: 150px;
+    background-color: #F00;
+    border: none;
+    position: absolute;
+    border-radius: 0 50px 50px 0;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+
+/* footer 6*/
+
+footer{
+    background: #070211;
+    margin:-8px ;
+    padding: 80px 160px 55px 160px;
+}
+footer > div > h4 , footer > div > div >div > h4 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFF;
+    margin: 0px;
+}
+
+footer >hr {
+    border: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+}
+.fottextfrist,.foottextlast{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+   
+}
+.foticon{
+    text-align: center;
+}
+.foticon > img{
+    width: 55px;
+    padding: 30px 10px;
+}
+.iconfont{
+    display: flex;
+    align-items: center;
+}
+
+.iconfont > i{
+    color: #fff;
+    margin-right: 15px;
+}
